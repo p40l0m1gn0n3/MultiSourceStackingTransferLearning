@@ -16,7 +16,7 @@ import pandas as pd
 from sklearn.neural_network import MLPRegressor
 from sklearn.metrics import r2_score, mean_squared_error, mean_absolute_error, root_mean_squared_error
 
-from publishable import parameters
+import parameters
 
 import numpy as np
 
