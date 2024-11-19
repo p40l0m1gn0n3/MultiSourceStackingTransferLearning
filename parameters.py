@@ -1,10 +1,10 @@
 # ####### FILE PATHS #######
 
 # The root folder where all subsequent relative paths will start from.
-root_folder = "F:/Paolo/data_folder/"
+root_folder = "path_to_data_folder/"
 
 # The folder where the results of the experiments will be saved.
-result_folder = "F:/Paolo/results/"
+result_folder = "path_to_results/"
 
 # ####### DATA PARAMETERS #######
 
