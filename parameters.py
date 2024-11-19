@@ -4,7 +4,7 @@
 root_folder = "path_to_data_folder/"
 
 # The folder where the results of the experiments will be saved.
-result_folder = "path_to_results/"
+result_folder = "path_to_results_folder/"
 
 # ####### DATA PARAMETERS #######
 
@@ -38,11 +38,10 @@ target_domain_test = root_folder + "target_domain/test_2012.csv"
 
 # ####### MODEL PARAMETERS #######
 
-# Maximum number of iterations for the MLP model (note: early stopping is enabled,
-# so the model may stop before reaching this number to avoid overfitting).
+# Maximum number of iterations for the MLP model (note: the model may stop before reaching this number (via tolerance) to avoid overfitting).
 max_iter = 500
 
-# Whether to reuse the solution of the previous call to fit the model and add more estimators to the ensemble (fine-tuning).
+# If true then the models will perform fine-tuning when processing the different domains
 warm_start = False
 
 # The seed for deterministic random processes, ensuring reproducibility.
