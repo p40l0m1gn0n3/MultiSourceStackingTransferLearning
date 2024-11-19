@@ -29,7 +29,3 @@ This project aims to explore transfer learning techniques where data from differ
 
 - Python 3.9+
 - [pip](https://pip.pypa.io/en/stable/)
-
-### Contact
-
-paolo.mignone@uniba.it
